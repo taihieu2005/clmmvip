@@ -9,14 +9,14 @@ from prettytable import PrettyTable
 
 def main():
     init(autoreset=True)
-    inject = process.ZefoyViews()
+    inject = process.FbsubViews()
     print(
         Fore.GREEN + """
       _____ _ _  __   ___
      |_   _(_) |_\ \ / (_)_____ __ _____
        | | | | / /\ V /| / -_) V  V (_-<
        |_| |_|_\_\ \_/ |_\___|\_/\_//__/
-       make with ❤️️ by @sandroputraa
+       Viết tool by Tài Hiếu 
     """
     )
     print(Fore.LIGHTYELLOW_EX + "Example: https://www.tiktok.com/@awokwokwokwkokwow/video/6940134095989050626")
